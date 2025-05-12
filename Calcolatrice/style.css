@@ -1,0 +1,32 @@
+#plain, #display {
+    width: 300px;
+    margin: 50px auto; /* "auto" indica la centratura orizzontale */
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+#display {
+    padding: 20px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer; /* mostra il cursore come interazione (mano) */
+}
+
+/* temporaneo */
+#display > * {
+    text-align: right;
+    margin-right: 10px;
+}
